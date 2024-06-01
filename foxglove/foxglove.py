@@ -1,0 +1,2 @@
+def prn():
+    print("HELLO")
