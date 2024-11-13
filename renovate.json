@@ -20,5 +20,5 @@
       ]
     }
   ],
-  "prConcurrentLimit": 5
+  "prConcurrentLimit": 2
 }
