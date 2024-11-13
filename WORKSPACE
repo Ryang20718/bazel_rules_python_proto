@@ -54,7 +54,7 @@ rules_proto_toolchains()
 http_archive(
     name = "foxglove_proto",
     build_file = "//third_party:foxglove_proto.BUILD",
-    sha256 = "2ea27032efdfd3640fa56dcd25f73bd37a0dc6f8f8abd53a290835937dd3aa89",
-    strip_prefix = "schemas-b00faa310ed9c9f563d6c68f2d3f6201af9656f2/schemas/proto",
-    url = "https://github.com/foxglove/schemas/archive/b00faa310ed9c9f563d6c68f2d3f6201af9656f2.zip",
+    sha256 = "84ff497d66f5340a8e9b2f9d6515a4ce54bc994223377a10223f0187d659b643",
+    strip_prefix = "schemas-f028ba1154faa1226a9993cc2223855123dbf817/schemas/proto",
+    url = "https://github.com/foxglove/schemas/archive/f028ba1154faa1226a9993cc2223855123dbf817.zip",
 )
