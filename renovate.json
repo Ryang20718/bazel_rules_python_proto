@@ -2,5 +2,23 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
-  ]
+  ],
+  "packageRules": [
+    {
+      "groupName": "Bazel Toolchains And Rules",
+      "matchPackageNames": ["bazel"],
+      "commitMessagePrefix": "[chore]",
+      "schedule": [
+        "* * * * *"
+      ]
+    },
+    {
+      "matchPackageNames": ["pip_requirements"],
+      "commitMessagePrefix": "[chore]",
+      "schedule": [
+        "* * * * *"
+      ]
+    }
+  ],
+  "prConcurrentLimit": 2
 }
